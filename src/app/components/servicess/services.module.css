@@ -1,0 +1,27 @@
+.services{
+    width: 80%;
+    display: flex;
+}
+
+.content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content h2{
+    color: #F85E9F;
+    font-size: calc(2rem + 0.5vw);
+}
+
+.content h1{
+    font-size: calc(3rem + 0.5vw);
+}
+
+.box{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
