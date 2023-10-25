@@ -1,6 +1,7 @@
-import { Stint_Ultra_Condensed } from 'next/font/google'
+
 import styles from './address.module.css'
 import { A_Box } from './A_Box'
+import {Next, Back} from '@/app/svgall'
 
 export const Address = () => {
     return (
@@ -11,20 +12,29 @@ export const Address = () => {
                     <h1>Một số địa điểm gần bạn</h1>
                 </div>
                 <div className={styles.icon}>
-                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="100" height="100" rx="50" fill="white" />
-                        <rect x="0.5" y="0.5" width="99" height="99" rx="49.5" stroke="#191825" stroke-opacity="0.1" />
-                    </svg>
-                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="100" height="100" rx="50" transform="matrix(-1 0 0 1 100 0)" fill="#5D50C6" />
-                    </svg>
-
+                    <div className={styles.button} ><Back fill="white" /></div>
+                    <div className={styles.button} ><Next fill="white" /></div>
                 </div>
             </div>
             <div className={styles.main}>
-                <A_Box/>
-                <A_Box/>
-                <A_Box/>
+                <A_Box
+                    img="https://f12-zpc.zdn.vn/1554688886800023133/69f22088425f9501cc4e.jpg"
+                    title="Khu du lịch Bửu Long"
+                    content="Biên Hòa, Đồng Nai"
+                    danhgia="4.8"
+                />
+                <A_Box
+                    img="https://f15-zpc.zdn.vn/6960701384401976872/6ea83bd359048e5ad715.jpg"
+                    title="Khu vui chơi Bò Cạp Vàng"
+                    content="Nhơn Trạch, Đồng Nai"
+                    danhgia="4.5"
+                />
+                <A_Box
+                    img="https://f12-zpc.zdn.vn/7193887127752406931/ed41fedea30974572d18.jpg"
+                    title="Vườn quốc gia Nam Cát Tiên"
+                    content="Tân Phú, Đồng Nai"
+                    danhgia="5.0"
+                />
             </div>  
         </div>
     )

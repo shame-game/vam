@@ -67,15 +67,17 @@
 }
 
 .content_wrap h1 {
-    font-size: calc(4.5rem + 1vw);
+    font-size: calc(3rem + 2vw);
+    padding: 10px 0;
 }
 
 .content_wrap h1 span {
     color: #F85E9F;
-    font-size: calc(3rem + 1vw);
+    font-size: calc(3rem + 2vw);
 }
 
 .content_wrap p {
+    padding: 20px 0;
     font-size: calc(1rem + 0.5vw);
     color: #191825;
     opacity: 0.5;

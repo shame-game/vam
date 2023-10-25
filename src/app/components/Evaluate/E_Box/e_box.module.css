@@ -1,0 +1,32 @@
+.avt img{
+    border-radius: 50%;
+}
+
+.avt{
+    padding: 20px 0;
+}
+
+.box h3{
+    color: #ffccbc;
+    font-size: calc(1rem + 1vw)
+}
+
+.box span{
+    color: white;
+    font-size: calc(0.8rem + 0.8vw)
+}
+
+.comt{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box p{
+    color: white;
+    font-size: calc(1rem + 0.5vw);
+    margin: 20px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

@@ -37,3 +37,20 @@
   height: max-content;
   justify-content: center;
 }
+
+.home1{
+  padding: 100px 0 50px 0;
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+}
+
+.evaluate{
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #555, #555,#555);
+}

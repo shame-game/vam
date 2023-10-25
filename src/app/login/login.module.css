@@ -1,0 +1,138 @@
+.wrap{
+    width: 80%;
+    height: 550px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgb(0 158 226 / 42%);
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_wrap{
+    width: 60%;
+    height: 90%;
+}
+
+.content_wrap h1{
+    text-align: center;
+    color: #009EE2;
+    font-size: calc(2rem + 1vw);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border: 1px solid #009EE2;
+    border-radius: 15px;
+    outline: none;
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.qmk{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.bt_login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.bt_login a{
+    padding: 10px 20px;
+    background-color: #009EE2;
+    border-radius: 15px;
+    color: white;
+}
+
+.bt_login a:hover{
+    cursor: pointer;
+}
+
+.hoac{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hoac::after{
+    content: '';
+    width: 43%;
+    display: block;
+    height: 0.5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+.hoac::before{
+    content: '';
+    width: 43%;
+    display: block;
+    height: 0.5px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.icon_img{
+    margin: 0 10px;
+}
+
+.icon_img:hover{
+    cursor: pointer;
+}
+
+.ft{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ft a{
+    color: rgb(0 158 226);;
+}

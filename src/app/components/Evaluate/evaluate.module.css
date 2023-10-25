@@ -1,0 +1,22 @@
+.eva{
+    width: 80%;
+}
+
+.wrap{
+    text-align: center;
+    width: 100%;
+}
+
+.main{
+    flex: 1;
+    
+}
+
+.wrap h2{
+    color: white;
+    font-size: calc(1rem + 1vw);
+}
+.wrap h1{
+    color: white;
+    font-size: calc(2rem + 1vw);
+}

@@ -1,0 +1,60 @@
+.lienhe{
+    background: rgba(250, 205, 73, 0.08);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.wrap{
+    width: 80%;
+    height: 60%;
+    text-align: center;
+}
+
+.content h3{
+    color: #F85E9F;
+    font-size: calc(1rem + 1vw);
+}
+
+
+.content h1{
+    color: #191825;
+    font-size: calc(2rem + 2vw);
+}
+
+.content{
+    margin-bottom: 50px;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form input{
+    width: 80%;
+    height: 60px;
+    border-radius:15px;
+    outline: none;
+    border: none;
+    padding: 0 40px;
+}
+
+.form a{
+    padding: 20px 40px;
+    background-color: #5D50C6;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.svg{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+}
